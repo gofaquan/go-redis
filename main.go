@@ -41,7 +41,7 @@ func main() {
 				config.Properties.Bind,
 				config.Properties.Port),
 		},
-		EchoHandler.MakeHandler())
+		EchoHandler.NewHandler())
 	if err != nil {
 		logger.Error(err)
 	}

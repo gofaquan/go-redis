@@ -63,7 +63,7 @@ func (h *EchoHandler) Handle(ctx context.Context, conn net.Conn) {
 				logger.Info("一个客户端退出！")
 				h.activeConn.Delete(client)
 			} else {
-				logger.Warn(err) //暂时无法处理超时与提前关闭，先 Warn
+				logger.Warn(err) //无法确定处理超时与提前关闭具体情况，先 Warn
 			}
 			return
 		}

@@ -5,6 +5,8 @@ import (
 	"time"
 )
 
+// 封装 sync 的 waitGroup 用于方便操作协程
+
 // Wait is similar with sync.WaitGroup which can wait with timeout
 type Wait struct {
 	wg sync.WaitGroup

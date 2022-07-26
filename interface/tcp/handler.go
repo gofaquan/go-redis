@@ -5,8 +5,8 @@ import (
 	"net"
 )
 
-// Handler 抽象业务逻辑
+// Handler 接口抽象 Handle 和 Close 方法
 type Handler interface {
 	Handle(ctx context.Context, conn net.Conn)
-	Close() error
+	Close() // 用于关闭连接
 }

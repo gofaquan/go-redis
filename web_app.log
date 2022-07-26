@@ -1,0 +1,37 @@
+{"level":"INFO","time":"2022-07-26T21:49:15.408+0800","caller":"log/logger.go:37","msg":"init logger success"}
+{"level":"INFO","time":"2022-07-26T21:49:23.844+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T21:49:23.844+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T21:49:23.850+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T21:49:24.327+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"WARN","time":"2022-07-26T21:49:24.334+0800","caller":"tcp/echo.go:44","msg":"Echo Handle unknown error!"}
+{"level":"INFO","time":"2022-07-26T21:50:06.365+0800","caller":"tcp/server.go:29","msg":"Shutting down...."}
+{"level":"INFO","time":"2022-07-26T21:50:06.366+0800","caller":"tcp/echo.go:58","msg":"echo handler is shutting down..."}
+{"level":"INFO","time":"2022-07-26T21:50:06.366+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T21:57:42.104+0800","caller":"log/logger.go:37","msg":"init logger success"}
+{"level":"INFO","time":"2022-07-26T21:57:47.128+0800","caller":"tcp/server.go:29","msg":"Shutting down...."}
+{"level":"INFO","time":"2022-07-26T21:59:27.358+0800","caller":"log/logger.go:37","msg":"init logger success"}
+{"level":"INFO","time":"2022-07-26T21:59:27.365+0800","caller":"exec/exec.go:25","msg":"server is starting , will arrive in 127.0.0.1:6379"}
+{"level":"INFO","time":"2022-07-26T21:59:43.885+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T21:59:43.885+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T21:59:43.890+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T21:59:59.918+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T21:59:59.922+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T22:00:09.719+0800","caller":"tcp/server.go:29","msg":"Shutting down...."}
+{"level":"INFO","time":"2022-07-26T22:00:09.725+0800","caller":"tcp/echo.go:58","msg":"echo handler is shutting down..."}
+{"level":"INFO","time":"2022-07-26T22:00:09.726+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T22:01:46.729+0800","caller":"log/logger.go:37","msg":"init logger success"}
+{"level":"INFO","time":"2022-07-26T22:01:46.737+0800","caller":"exec/exec.go:25","msg":"server is starting , will arrive in 127.0.0.1:6379"}
+{"level":"INFO","time":"2022-07-26T22:01:50.250+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T22:02:36.699+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T22:04:04.083+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T22:04:44.138+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T22:04:46.158+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T22:04:57.982+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T22:05:18.622+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"WARN","time":"2022-07-26T22:05:37.420+0800","caller":"tcp/echo.go:44","msg":"Echo Handle unknown error!"}
+{"level":"INFO","time":"2022-07-26T22:05:41.694+0800","caller":"tcp/server.go:29","msg":"Shutting down...."}
+{"level":"INFO","time":"2022-07-26T22:07:23.942+0800","caller":"log/logger.go:37","msg":"init logger success"}
+{"level":"INFO","time":"2022-07-26T22:07:23.954+0800","caller":"exec/exec.go:25","msg":"server is starting , will arrive in 127.0.0.1:6379"}
+{"level":"INFO","time":"2022-07-26T22:07:33.990+0800","caller":"tcp/server.go:41","msg":"Accept a new link"}
+{"level":"INFO","time":"2022-07-26T22:07:48.706+0800","caller":"tcp/echo.go:41","msg":"a connection close"}
+{"level":"INFO","time":"2022-07-26T22:07:50.689+0800","caller":"tcp/server.go:29","msg":"Shutting down...."}

@@ -13,7 +13,8 @@ import (
 type DB struct {
 	index int
 	// key -> DataEntity
-	data dict.Dict
+	data   dict.Dict
+	addAof func(CmdLine)
 }
 
 // ExecFunc is interface for command executor

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/gofaquan/go-redis/config"
 	"github.com/gofaquan/go-redis/lib/logger"
+	"github.com/gofaquan/go-redis/resp/handler"
 	"github.com/gofaquan/go-redis/tcp"
-	EchoHandler "github.com/gofaquan/go-redis/tcp"
 	"os"
 )
 
@@ -41,7 +41,8 @@ func main() {
 				config.Properties.Bind,
 				config.Properties.Port),
 		},
-		EchoHandler.NewHandler())
+		handler.MakeHandler())
+	//tcp.NewHandler())
 	if err != nil {
 		logger.Error(err)
 	}
